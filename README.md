@@ -1,16 +1,57 @@
 # Python template
 
-[TOC]
+_Table of content, automatically updates on save._
+
+- [Python template](#python-template)
+  - [About the project](#about-the-project)
+  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+    - [Publish](#publish)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Acknowledgments](#acknowledgments)
 
 ## About the project
 
-One sentence summarizing the motivation and value proposition this project provides.
+_One sentence summarizing the motivation and value proposition this project provides._
+
+Generic Python VSCode template with opinionated configuration.
 
 ## Setup
 
 ### Prerequisites
 
-Platform / required software.
+Suggested VSCode Extensions:
+
+- `njpwerner.autodocstring`
+- `ms-python.black-formatter`
+- `streetsidesoftware.code-spell-checker`
+- `ms-vscode-remote.remote-containers`
+- `ms-azuretools.vscode-docker`
+- `ms-python.flake8`
+- `donjayamanne.githistory`
+- `visualstudioexptteam.vscodeintellicode`
+- `visualstudioexptteam.intellicode-api-usage-examples`
+- `ms-python.isort`
+- `yzhang.markdown-all-in-one`
+- `davidanson.vscode-markdownlint`
+- `matangover.mypy`
+- `christian-kohler.path-intellisense`
+- `cs50.vscode-presentation-mode`
+- `ms-python.vscode-pylance`
+- `ms-python.pylint`
+- `ms-python.python`
+- `mukundan.python-docs`
+- `donjayamanne.python-environment-manager`
+- `kevinrose.vsc-python-indent`
+- `avaly.restore-git-branch-tabs-improved`
+- `lextudio.restructuredtext`
+- `trond-snekvik.simple-rst`
 
 ### Installation
 
