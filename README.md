@@ -72,24 +72,20 @@ _How to install._
 
 ## Usage
 
-How to use the software / library.
-If necessary include any warnings about common problems / misusage.
+_How to use the software / library.
+If necessary include any warnings about common problems / misusage._
 
 ## Testing
 
-How to execute the test suite.
+_How to execute the test suite._
 
 ## Roadmap
 
-Where is this project currently going?
+_Where is this project currently going?_
 
 ## Contributing
 
-How to contribute to the project.
-
-### Publish
-
-Release workflow of the project.
+_How to contribute to the project._
 
 ## License
 
