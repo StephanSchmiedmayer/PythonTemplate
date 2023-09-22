@@ -12,7 +12,6 @@ _Table of content, automatically updates on save via_ yzhang.markdown-all-in-one
   - [Testing](#testing)
   - [Roadmap](#roadmap)
   - [Contributing](#contributing)
-    - [Publish](#publish)
   - [License](#license)
   - [Contributors](#contributors)
   - [Acknowledgments](#acknowledgments)
