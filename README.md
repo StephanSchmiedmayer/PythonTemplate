@@ -22,6 +22,10 @@ _One sentence summarizing the motivation and value proposition this project prov
 
 Generic Python VSCode template with opinionated configuration.
 
+### Built with
+
+_Frameworks used for this project._
+
 ## Setup
 
 ### Prerequisites
