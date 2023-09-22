@@ -1,9 +1,10 @@
 # Python template
 
-_Table of content, automatically updates on save._
+_Table of content, automatically updates on save via_ yzhang.markdown-all-in-one _._
 
 - [Python template](#python-template)
   - [About the project](#about-the-project)
+    - [Built with](#built-with)
   - [Setup](#setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
