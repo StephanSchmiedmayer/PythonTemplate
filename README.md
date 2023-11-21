@@ -69,6 +69,8 @@ _How to install._
 
    `git pull template main`
 
+   Be aware that this will also add the MIT License of this project.
+
 3. [Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
 
    `poetry config virtualenvs.in-project true`
@@ -100,4 +102,4 @@ See [License.md](LICENSE.md).
 
 ## Acknowledgments
 
-Thank anybody who helped with this project.
+_Thank anybody who helped with this project._
