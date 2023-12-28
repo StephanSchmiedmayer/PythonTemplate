@@ -71,7 +71,15 @@ _How to install._
 
    Be aware that this will also add the MIT License of this project.
 
-3. [Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
+3. Squash all commits to a single initial commit:
+
+   `git reset $(git commit-tree HEAD^{tree} -m ".") && git commit --amend -m "Add template"`
+
+4. Remove template remote:
+
+   `git remote rm template`
+
+5. [Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
 
    `poetry config virtualenvs.in-project true`
 
