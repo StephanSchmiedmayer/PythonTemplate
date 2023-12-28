@@ -30,32 +30,7 @@ _Frameworks used for this project._
 
 ### Prerequisites
 
-Suggested VSCode Extensions:
-
-- `njpwerner.autodocstring`
-- `ms-python.black-formatter`
-- `streetsidesoftware.code-spell-checker`
-- `ms-vscode-remote.remote-containers`
-- `ms-azuretools.vscode-docker`
-- `ms-python.flake8`
-- `donjayamanne.githistory`
-- `visualstudioexptteam.vscodeintellicode`
-- `visualstudioexptteam.intellicode-api-usage-examples`
-- `ms-python.isort`
-- `yzhang.markdown-all-in-one`
-- `davidanson.vscode-markdownlint`
-- `matangover.mypy`
-- `christian-kohler.path-intellisense`
-- `cs50.vscode-presentation-mode`
-- `ms-python.vscode-pylance`
-- `ms-python.pylint`
-- `ms-python.python`
-- `mukundan.python-docs`
-- `donjayamanne.python-environment-manager`
-- `kevinrose.vsc-python-indent`
-- `avaly.restore-git-branch-tabs-improved`
-- `lextudio.restructuredtext`
-- `trond-snekvik.simple-rst`
+_Prerequisites for installation._
 
 ### Installation
 
@@ -92,6 +67,33 @@ _How to install._
 5. [Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
 
    `poetry config virtualenvs.in-project true`
+
+Suggested VSCode extensions:
+
+- `njpwerner.autodocstring`
+- `ms-python.black-formatter`
+- `streetsidesoftware.code-spell-checker`
+- `ms-vscode-remote.remote-containers`
+- `ms-azuretools.vscode-docker`
+- `ms-python.flake8`
+- `donjayamanne.githistory`
+- `visualstudioexptteam.vscodeintellicode`
+- `visualstudioexptteam.intellicode-api-usage-examples`
+- `ms-python.isort`
+- `yzhang.markdown-all-in-one`
+- `davidanson.vscode-markdownlint`
+- `matangover.mypy`
+- `christian-kohler.path-intellisense`
+- `cs50.vscode-presentation-mode`
+- `ms-python.vscode-pylance`
+- `ms-python.pylint`
+- `ms-python.python`
+- `mukundan.python-docs`
+- `donjayamanne.python-environment-manager`
+- `kevinrose.vsc-python-indent`
+- `avaly.restore-git-branch-tabs-improved`
+- `lextudio.restructuredtext`
+- `trond-snekvik.simple-rst`
 
 ## Usage
 
