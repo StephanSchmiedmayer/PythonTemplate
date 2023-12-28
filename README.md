@@ -8,6 +8,10 @@ _Table of content, automatically updates on save via_ yzhang.markdown-all-in-one
   - [Setup](#setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+      - [In a completely new repository](#in-a-completely-new-repository)
+      - [Into an existing repository](#into-an-existing-repository)
+      - [Poetry](#poetry)
+      - [Suggested VSCode extensions](#suggested-vscode-extensions)
   - [Usage](#usage)
   - [Testing](#testing)
   - [Roadmap](#roadmap)
@@ -34,17 +38,18 @@ _Prerequisites for installation._
 
 ### Installation
 
-For step by step explanation see below.
+_How to install._
+
+#### In a completely new repository
 
 ```shell
 git remote add template https://github.com/StephanSchmiedmayer/PythonTemplate.git
 git pull template main
 git reset $(git commit-tree HEAD^{tree} -m ".") && git commit --amend -m "Add template"
 git remote rm template
-poetry config virtualenvs.in-project true
 ```
 
-_How to install._
+Step by step explanation:
 
 1. Add this repo as a remote repository called `template`:
 
@@ -64,11 +69,20 @@ _How to install._
 
    `git remote rm template`
 
-5. [Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
+#### Into an existing repository
 
-   `poetry config virtualenvs.in-project true`
+```shell
+git remote add template https://github.com/StephanSchmiedmayer/PythonTemplate.git
+git checkout template/main -- .gitignore README.md LICENSE.md .vscode/settings.json
+```
 
-Suggested VSCode extensions:
+#### Poetry
+
+[Once per machine] Make sure poetry puts the virtual environment into this project, otherwise VSCode can have problems picking it up. For more info see [stackoverflow](https://stackoverflow.com/a/64434542).
+
+`poetry config virtualenvs.in-project true`
+
+#### Suggested VSCode extensions
 
 - `njpwerner.autodocstring`
 - `ms-python.black-formatter`
