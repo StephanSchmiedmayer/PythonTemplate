@@ -59,6 +59,16 @@ Suggested VSCode Extensions:
 
 ### Installation
 
+For step by step explanation see below.
+
+```shell
+git remote add template https://github.com/StephanSchmiedmayer/PythonTemplate.git
+git pull template main
+git reset $(git commit-tree HEAD^{tree} -m ".") && git commit --amend -m "Add template"
+git remote rm template
+poetry config virtualenvs.in-project true
+```
+
 _How to install._
 
 1. Add this repo as a remote repository called `template`:
